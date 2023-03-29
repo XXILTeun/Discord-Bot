@@ -27,33 +27,7 @@ lavalink:
       gc-warnings: true
       youtubeSearchEnabled: true
       soundcloudSearchEnabled: true
-
-plugins:
-  dunctebot:
-    ttsLanguage: "en-US" # language of the TTS engine
-    sources:
-      # true = source enabled, false = source disabled
-      getyarn: true # www.getyarn.io
-      clypit: true # www.clyp.it
-      tts: true # speak:text to speak
-      reddit: true # should be self-explanatory
-      ocremix: true # www.ocremix.org
-
-metrics:
-  prometheus:
-    enabled: false
-    endpoint: /metrics
-
-sentry:
-  dsn: ""
-  environment: ""
-
-logging:
-  file:
-    max-history: 30
-    max-size: 1GB
-  path: ./logs/
-
-  level:
-    root: INFO
-    lavalink: INFO
+Spotify:
+  Enabled: true # boolean, change to true in order to enable
+  ClientID: 0a0f6aeaac3f41e382101c30cb36b00c # Client ID from the developer portal
+  ClientSecret: 63edef65ab404f999be52bc1068df9f3 
