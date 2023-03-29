@@ -27,7 +27,3 @@ lavalink:
       gc-warnings: true
       youtubeSearchEnabled: true
       soundcloudSearchEnabled: true
-Spotify:
-  Enabled: true # boolean, change to true in order to enable
-  ClientID: 0a0f6aeaac3f41e382101c30cb36b00c # Client ID from the developer portal
-  ClientSecret: 63edef65ab404f999be52bc1068df9f3 
